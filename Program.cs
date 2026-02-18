@@ -6,13 +6,13 @@
         {
 
 
-            //int grade;
+            //double grade;
             //Console.WriteLine("What was your grade?");
-            //int.TryParse(Console.ReadLine(), out grade);
+            //Double.TryParse(Console.ReadLine(), out grade);
             //if (grade >= 50)
             //    Console.WriteLine("You Passed!");
             //else
-            //    Console.WriteLine("Better luck next time");
+            //    Console.WriteLine("Better luck next time.");
 
 
             //int age;
@@ -30,54 +30,74 @@
 
 
 
-            int grade;
-            Console.WriteLine("What is your grade?");
-            int.TryParse(Console.ReadLine(), out grade);
+            //int grade;
+            //Console.WriteLine("What is your grade?");
+            //int.TryParse(Console.ReadLine(), out grade);
 
-            if (grade > 50) 
+            //if (grade < 50)
+            //{
+            //    Console.WriteLine("That is an F!");
+            //}
+
+
+            //else if (grade <= 65)
+            //{
+            //    Console.WriteLine("That is a D!");
+
+            //}
+
+
+
+
+            //else if (grade <= 75)
+            //{
+            //    Console.WriteLine("That is a C!");
+            //}
+
+
+
+
+            //else if (grade <= 85)
+
+            //{
+            //    Console.WriteLine("That is a B!");
+            //}
+
+
+
+
+
+            //else if (grade > 85)
+
+            //{
+            //    Console.WriteLine("Thats is an A!");
+
+            //}
+
+            double temperature;
+            Console.WriteLine("Insert a temperature.");
+            Double.TryParse(Console.ReadLine(), out temperature);
+
+            if (temperature <= 0)
             {
-                Console.WriteLine("That is an F!");
+                Console.WriteLine("Damn! That water is frozen!");
             }
-               
-
-            if (grade <= 65); 
+            else if (temperature >= 100)
             {
-                Console.WriteLine("That is a D!");
+                Console.WriteLine("Thats some gas right there!");
+            }
+
+            else if (temperature > 0)
+            {
+                Console.WriteLine("That sure is some liquid water right there!");
+            }
+
             
-            }
 
 
 
-
-            if (grade <= 75);
-            {
-                Console.WriteLine("That is a C!");
-            }
-
-
-
-
-            if (grade <= 85); 
-                    
-            {
-                Console.WriteLine("That is a B!");
-            }
-
-
-
-
-
-            if (grade > 85);  
-                    
-            {
-                Console.WriteLine("Thats is an A!");
-            }
-                
-
-
-
-
-
+           
         }
     }
 }
+
