@@ -74,29 +74,150 @@
 
             //}
 
-            double temperature;
-            Console.WriteLine("Insert a temperature.");
-            Double.TryParse(Console.ReadLine(), out temperature);
+            //double temperature;
+            //Console.WriteLine("Insert a temperature.");
+            //Double.TryParse(Console.ReadLine(), out temperature);
 
-            if (temperature <= 0)
+            //if (temperature <= 0)
+            //{
+            //    Console.WriteLine("Damn! That water is frozen!");
+            //}
+            //else if (temperature >= 100)
+            //{
+            //    Console.WriteLine("Thats some gas right there!");
+            //}
+
+            //else if (temperature > 0)
+            //{
+            //    Console.WriteLine("That sure is some liquid water right there!");
+            //}
+
+            //int age;
+            //Console.WriteLine("What is your age?");
+            //int.TryParse(Console.ReadLine(), out age);
+
+            //if (age >= 13 && age <= 19)
+            //{
+            //    Console.WriteLine("You're a teenager!");
+            //}
+
+            //else 
+            //{
+            //    Console.WriteLine("You are NOT a teenager.");
+            //}
+
+            // string answer, A, a, B, b, C, c;
+            // Console.WriteLine("2 plus 2 equals 4. 4 divided by 2 is what? Choose A, B, or C.");
+
+            // Console.WriteLine("A) 8.");
+            // Console.WriteLine("B) 12.");
+            // Console.WriteLine("C) All of the above.");
+
+
+            // Console.WriteLine("Your answer here:");
+
+            //answer = Console.ReadLine();
+
+            // if (answer == "A")
+            // {
+            //     Console.WriteLine("Oh my God-What an idot!");
+            // }
+
+            // if (answer == "B") 
+            // {
+            //     Console.WriteLine("Holy dumbass, nerd!");
+            // }
+
+            // if (answer == "C") 
+            // {
+            //     Console.WriteLine("Go back to second grade, kid.");
+            // }
+
+            // if (answer == "a") 
+            // {
+            //     Console.WriteLine("Oh my days-IQ of a rock!");
+            // }
+
+            // if (answer == "b") 
+            // {
+            //     Console.WriteLine("You thought you were smart? WRONG!");
+            // }
+
+            // if (answer == "c") 
+            // {
+            //     Console.WriteLine("Somebody should get off Roblox.");
+            // }
+
+            // if (answer == "2")
+            // {
+            //     Console.WriteLine("Heh heh... You thought you could get around my little ploy, eh? HELL NO! Does you mom hate you? Do you lack sefficient  attention from you parents? Either way, YOU. ARE. WRONG!!!!!!");
+            // }
+
+            // else 
+            // {
+            //     Console.WriteLine("Bro didnt even ATTEMPT the question. You call yourself a free thinker? Sorry to break the news, but NOBODY CARES. GO    WITH THE HERD, NERD! YOU ARE NOT SPECIAL. ...And you never WILL be.");
+            // }
+
+            //int age;
+            //Console.WriteLine("What is your age?");
+            //int.TryParse(Console.ReadLine(), out age);
+
+            //if (age >= 60)
+            //{
+            //    Console.WriteLine("Well, Grandad - Your buss fee will be $2.00.");
+            //}
+
+            //else 
+            //{
+            //    Console.WriteLine("Your fee will b $3.50.");
+            //}
+
+            //string favouriteAnimal;
+            //Console.WriteLine("Whats YOUR favourite animal?");
+            //favouriteAnimal = Console.ReadLine().ToUpper();
+
+            //if (favouriteAnimal == "North American Beaver") 
+            //{
+            //    Console.WriteLine("Same, twin!");
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("Wrong.");
+            //}
+
+            string weather;
+            int temp;
+            Console.WriteLine("Whats the weather?");
+            weather = Console.ReadLine();
+            int.TryParse(Console.ReadLine(), out temp);
+
+            if (temp >= 25) 
             {
-                Console.WriteLine("Damn! That water is frozen!");
+                Console.WriteLine("Hop in the pool, twin!");
             }
-            else if (temperature >= 100)
+
+            if (weather == "sunny") 
             {
-                Console.WriteLine("Thats some gas right there!");
+                Console.WriteLine("Get yo swim on, twin!");
             }
 
-            else if (temperature > 0)
+            if (weather == "Sunny")
             {
-                Console.WriteLine("That sure is some liquid water right there!");
+                Console.WriteLine("Get in the damn pool.");
             }
 
-            
+            else 
+            {
+                Console.WriteLine("Nap time, twin!");
+            }
 
 
 
-           
+
+
+
+
         }
     }
 }
